@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', sans-serif;
+    text-align: center;
+    margin: 0.5rem 0 0;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+.menutext{
+    top:42rem;
+    position: absolute;
+    font-size: 16px;
+    left: 40%;
+    color: black;
+    text-decoration: none;
+    transform: translate(-50%);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 6px 5px #ff0000;
+    transition: .5s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    height: 520px;
+    top: 9rem;
+    background: rgb(241, 136, 48);
+    border: 2px solid #ffffff;
+    padding: .5rem;
+    box-shadow: 5px 6px #888888;
+
+}
+
+.container table tr td{
+    width: 90px;
+    height: 80px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+.reset{
+    position: absolute;
+    top:42rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 6px 5px #ff0000;
+    transition: .5s;
+}
+
+.reset:hover{
+    transition: 0.8s;
+    box-shadow: 0 0 #ff0000;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        height: 520px;
+        top: 9rem;
+        border: 2px solid #ffffff;
+        padding: .5rem;
+
+    }
+
+}
+.yangbluediv{
+    position: relative;
+    width: 100px;
+    margin-left: 110px;
+}
+#yangblue{
+    width: 200px;
+}
+.yangreddiv{
+    position: relative;
+    width: 100px;
+    margin-left: 1200px;
+    top: 50px;
+}
+#yangred{
+    width: 200px;
+    transform: scaleX(-1);
+}
+body{
+    background-image: url("img/streetfighterbackground.gif");
+    background-size: auto;
+    
+}
+.player1container{
+    position: absolute;
+    top: 37rem;
+    left: 7rem;
+    color: cornflowerblue;
+    text-shadow: 0 0 4px red;
+}
+.player2container{
+    position: absolute;
+    top: 37rem;
+    left: 90rem;
+    color: red;
+    text-shadow: 0 0 6px cornflowerblue;
+}
+#player1score{
+    font-size:30px;
+    color: cornflowerblue;
+    text-shadow: 0 0 4px red;
+}
+#player2score{
+    font-size:30px;
+    color: red;
+    text-shadow: 0 0 6px cornflowerblue;
+}
+#bodylogin{
+    background: #eae5e6;
+}
+.login_form{
+    margin-top: 25%;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+    border-radius: 5px;
+}
+.form_btn{
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+    width: 100%
+}
+.label_txt{
+    font-size: 12px;
+}
+.form-control{border-radius: 25px }
+.signup_form{
+    background: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:5px;
+    box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+    border-radius: 5px;
+    margin-top: 45%;
+}
+.logo{
+    height: 50px;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.errmsg{
+    margin: 2px auto;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: pink;
+    text-align: left;
+    color: brown;
+    padding: 1px;
+}
+.successmsg{
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid green;
+    background: #33CC00;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+.logovieropeenrij{
+    width: 30%;
+    margin-left:35%;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#bodymenu{
+    background: linear-gradient(135deg, #01fc26 0%, #2323e7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
