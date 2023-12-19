@@ -109,18 +109,14 @@ a:hover{
 .yangreddiv{
     position: relative;
     width: 100px;
-    margin-left: 1200px;
-    top: 50px;
+    margin-left: 1400px;
+    top: -150px;
 }
 #yangred{
     width: 200px;
     transform: scaleX(-1);
 }
-body{
-    background-image: url("img/streetfighterbackground.gif");
-    background-size: auto;
-    
-}
+
 .player1container{
     position: absolute;
     top: 37rem;
