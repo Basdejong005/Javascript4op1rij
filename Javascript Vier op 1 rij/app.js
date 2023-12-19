@@ -25,7 +25,7 @@ var yangred = document.getElementById("yangred")
 var currentPlayer = 1;
 let winner;
 playerTurn.textContent = `${player1} : zijn beurt`
-yangred.src = "yangredgrijs.png"
+yangred.src = "img/yangredgrijs.png"
 
 
 
